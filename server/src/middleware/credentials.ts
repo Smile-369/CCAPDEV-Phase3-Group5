@@ -3,6 +3,7 @@ import { NextFunction, Request, Response } from 'express';
 export const allowedOrigins = [
 	'http://localhost:3000',
 	'https://restaurantchecker.vercel.app',
+	'https://ccapdev-phase3-group5.vercel.app',
 ];
 
 export const credentials = (

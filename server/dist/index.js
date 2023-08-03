@@ -15,7 +15,7 @@ const port = process.env.PORT || 8080;
 // const password = process.env.PASS || '66DCvZz6UCDhHbpX';
 const password = process.env.PASS || 'ndjWNB0MFif5QNXY';
 // const uri = `mongodb+srv://user:${password}@restaurant.ot5v5rm.mongodb.net/?retryWrites=true&w=majority`;
-const uri = `mongodb+srv://Restaurant:ndjWNB0MFif5QNXY@cluster0.ibpuctm.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://Restaurant:${password}@cluster0.ibpuctm.mongodb.net/?retryWrites=true&w=majority`;
 //Connects the server to the database
 mongoose_1.default.connect(uri);
 const db = mongoose_1.default.connection;
